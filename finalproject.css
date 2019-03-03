@@ -1,0 +1,88 @@
+#page1 {
+   display: block; 
+}
+#page2 {
+    display: none;
+}
+#page3 {
+    display: none;
+}
+#page4 {
+    display: none;
+}
+#page5 {
+    display: none;
+}
+#page6 {
+    display: none;
+}
+* {box-sizing: border-box}
+head {
+background-color: white;
+}
+
+body, html {
+   background-color: floralwhite;
+    height: 100%;
+    margin: 0;
+} 
+#ekasivudropdown {
+   text-align: center;
+    background-color: white;
+    width: 100%;
+    border: 0px; 
+}
+.row {
+    background-color: white;
+}
+#dropbutton {
+    background-color: wheat;
+    border: 0px;   
+}
+.container-fluid {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+/*
+.container {
+   text-align: center;
+    background-color: white;
+    width: 100%;
+}*/
+#jumbosaato {
+   text-align: center;
+    background-color: white;
+    width: 100%;
+}
+.carousel-inner {
+    position: absolute;
+}
+.img-responsive {
+    margin: 0 auto;
+}
+.bg{
+   background-image: url("Chicago1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 100%;
+}
+.bg3 {
+     background-image: url("Chicago2.JPG");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 100%;
+}
+h1 {
+    text-align: center;
+}
+.col-xs-6 {
+    margin: 0 auto;
+    padding: 1px;
+    border: 1px;
+}
+.lomake{
+    background-color: aquamarine;
+}

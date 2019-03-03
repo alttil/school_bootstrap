@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Stylesheet link -->
+    <link href="finalproject.css" rel="stylesheet" type="text/css">
+    <link href="timeline.css" rel="stylesheet" type="text/css">
+    <link href="navbar.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <!-- ICON https://material.io/tools/icons/?icon=commute&style=baseline -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta charset="utf-8"/>
+    
+
+<!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Stylesheet link -->
+    <!-- <link href="digiBootstrap.css" rel="stylesheet" type="text/css"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- ICON https://material.io/tools/icons/?icon=commute&style=baseline -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta charset="utf-8"/>
+    
+    
+    
+    <title>Final Project</title>
+    
+    <!-- Sivujen säädöt ALKU -->
+        <script>
+  	 	function changePage(id)
+  	 	{
+  	 	//haetaan elementit
+  	 	var p1 = document.getElementById("page1");
+  	 	var p2 = document.getElementById("page2");
+        var p3 = document.getElementById("page3");
+        var p4 = document.getElementById("page4");
+  	 	var p5 = document.getElementById("page5");
+        var p6 = document.getElementById("page6");
+  	 	//katsotaan kumpi halutaan käyttää
+  	     if(id == "home")
+  	 	{
+        p1.style.display = "block";
+  	 	p2.style.display = "none";
+        p3.style.display = "none";
+        p4.style.display = "none";
+        p5.style.display = "none";
+        p6.style.display = "none";    
+
+  	 	}
+  	 	else if (id == "about")
+  	 	{
+  	 	//visible the wanted and hidden the another
+  	 	p1.style.display = "none";
+  	 	p2.style.display = "block";
+        p3.style.display = "none";
+        p4.style.display = "none";
+        p5.style.display = "none";
+        p6.style.display = "none";   
+
+  	 	}
+        else if (id == "education")
+        {
+        p1.style.display = "none";
+  	 	p2.style.display = "none";
+        p3.style.display = "block";
+        p4.style.display = "none";
+        p5.style.display = "none";
+        p6.style.display = "none";   
+              
+        }
+        else if (id == "gallery")
+        {
+        p1.style.display = "none";
+  	 	p2.style.display = "none";
+        p3.style.display = "none";
+        p4.style.display = "block";
+        p5.style.display = "none";
+        p6.style.display = "none";    
+                
+        }
+        else if (id == "references")
+        {
+        p1.style.display = "none";
+  	 	p2.style.display = "none";
+        p3.style.display = "none";
+        p4.style.display = "none";
+        p5.style.display = "block";
+        p6.style.display = "none";   
+               
+        }
+        else if (id == "contact")
+        {
+        p1.style.display = "none";
+  	 	p2.style.display = "none";
+        p3.style.display = "none";
+        p4.style.display = "none";
+        p5.style.display = "none";
+        p6.style.display = "block";    
+               
+        }
+  	 	}
+  	 </script>
+<!-- Sivujen säädöt LOPPU -->
+    
+    </head>
+    
+    <body>
+    
+         
+             <div class="page-header">
+            <div id="navi">
+  			<!--NAVBAR START -->
+            
+  			<ul id="nav" class="nav navbar-nav">
+                <ol class="breadcrumb" style="background:transparent !important">
+                    <li class="breadcrumb-item active"><a href="#" onClick="changePage('home');">Home page</a></li> 
+                    <li class="breadcrumb-item"><a href="#" onClick="changePage('about');">About</a></li>
+                    <li class="breadcrumb-item"><a href="#" onClick="changePage('education');">Education</a></li>
+                    <li class="breadcrumb-item"><a href="#" onClick="changePage('gallery');">Gallery</a></li>
+                    <li class="breadcrumb-item"><a href="#" onClick="changePage('references');">References</a></li>
+                   <li class="breadcrumb-item"><a href="#" onClick="changePage('contact');">Contact</a></li>
+                </ol>
+  			</ul>
+  		    </div>
+            </div>
+        <br><br><br>
+            
+            <!--NAVBAR END -->
+        
+        <div id="pages">
+  			<div id="page1">
+                
+                     <div class="bg">
+            
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+           </div>
+                    
+                    <div class="container-fluid">
+                    <button type="button" class="btn btn-primary btn-lg btn-block" id="dropbutton" data-toggle="collapse" data-target="#demo"><h1><i class="material-icons">arrow_downward</i>&nbsp;Some pics from my trips&nbsp;<i class="material-icons">arrow_downward</i></h1></button><br>
+                    <div class="row">
+                    <div id="demo" class="collapse"> 
+                        <div class="row">
+    <div class="col-xs-4">
+      <div class="thumbnail">
+          <img src="IMG_6269.jpg" alt="Chicago" style="width:100%">
+          <div class="caption">
+            <p>Nice views from 360 Chicago during night</p>
+          </div>
+        
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <div class="thumbnail">
+          <img src="Chicago2.JPG" alt="Chicago" style="width:100%">
+          <div class="caption">
+            <p>Nice views from 360 Chicago during daylight</p>
+          </div>
+        
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <div class="thumbnail">
+          <img src="Japan.JPG" alt="Japan" style="width:100%">
+          <div class="caption">
+            <p>A memory from my Japan snowboarding trip. JaPOW!</p>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+                        
+                        </div>
+                    
+                    </div></div>
+                </div>
+        
+            <div id="page2">
+                <div class="jumbotron jumbotron-fluid" style="background:transparent !important"> <!-- JUMBON tausta -->
+            <div class="container3" id="jumbosaato">
+                 <h1>About me</h1>      
+                    <p>I am a custom service orientated multitalent with over 10 years
+experience of coaching people. My clients include people with different backgrounds from students to top executives of the biggest Finnish brands e.g. Nokia, OP, Kone and Neste. My work is driven by the desire to inspire people to give 100% in sports. Last 4 years I worked as a Team Leader in intensive tennis camps to abroad and as a Head Coach of Junior camps in Finland. In our customer satisfaction surveys I always have been selected among the 3 best coaches. I work hard to give the client and my organization the best.<br><br>
+                Now studying ICT in Haaga-Helia University of Applied Sciences. In the future my goal is to combine my previus experience from sports and my current studies from programming field.</p>
+                    </div></div><br>
+                <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" style="width:70%">
+    Backend
+  </div>
+  <div class="progress-bar progress-bar-warning" role="progressbar" style="width:20%">
+    Frontend
+  </div>
+    <div class="progress-bar progress-bar-danger" role="progressbar" style="width:10%">
+    Fullstack
+  </div>
+                
+                </div>
+                <div class="row">
+                <div class="col-xs-4">
+                <!--Here is the download link for my CV -->
+                <h1><a href="Lindroos_Altti_CVe.pdf" download>My CV</a></h1>
+                </div>
+                <div class="col-xs-4"><strong>Programming skills:</strong><br>
+                    <ul>
+                    <li><span class="label label-success">Java</span></li>
+                    <li><span class="label label-default">HTML</span></li>
+                    <li><span class="label label-primary">JavaScript</span></li>
+                    <li><span class="label label-warning">CSS</span></li>
+                    <li><span class="label label-danger">Bootstrap</span></li>
+                    <li><span class="label label-info">PHP</span></li>
+                    <li><span class="label label-primary">Angular</span></li>
+                    <li><span class="label label-success">jQuery</span></li>
+                    </ul>
+                    </div>
+                <div class="col-xs-4">
+                    <img src="Lindroos_Altti_CVe.jpg" alt="resume" style="width:100%">
+                    </div>
+                </div><br>
+                
+                <div class="progress">
+  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+  aria-valuemin="0" aria-valuemax="100" style="width:30%">
+    PHP
+  </div>
+</div>
+
+                <div class="progress">
+  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50"
+  aria-valuemin="0" aria-valuemax="100" style="width:70%">
+    CSS
+  </div>
+</div>
+
+                <div class="progress">
+  <div class="progress-bar progress-bar-default" role="progressbar" aria-valuenow="60"
+  aria-valuemin="0" aria-valuemax="100" style="width:70%">
+    HMTL
+  </div>
+</div>
+
+                <div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:80%">
+    Java
+  </div>
+</div>
+                
+                <div class="progress">
+  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:25%">
+    Angular
+  </div>
+</div>
+                
+                <div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:30%">
+    jQuery
+  </div>
+</div>
+
+                <div class="progress">
+  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:75%">
+    Bootstrap
+  </div>
+</div>
+                
+                <div class="progress">
+  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:70%">
+    JavaScript
+  </div>
+</div><br>                
+            
+          </div>  
+        <div id="page3">
+            
+            
+<!-- TIMELINE ALKAA -->
+            <ul class="timeline">
+    <li>
+        <div class="timeline-badge">
+          <a><i class="fa fa-circle" id=""></i></a>
+        </div>
+        <div class="timeline-panel">
+            <div class="timeline-heading">
+                <h4>2017-2019</h4>
+            </div>
+            <div class="timeline-body">
+                <p>Studying ICT</p>
+            </div>
+            <div class="timeline-footer">
+                <p class="text-right">Haaga-Helia University of Applied Sciences</p>
+            </div>
+        </div>
+    </li>
+    
+    <li class="timeline-inverted">
+        <div class="timeline-badge">
+            <a><i class="fa fa-circle invert" id=""></i></a>
+        </div>
+        <div class="timeline-panel">
+            <div class="timeline-heading">
+                <h4>2007-2011</h4>
+            </div>
+            <div class="timeline-body">
+                <p>Studyin Marketing and Logistics</p>
+            </div>
+            <div class="timeline-footer">
+                <p class="text-right">Metropolia University of Applied Sciences</p>
+            </div>
+        </div>
+    </li>
+    
+    <li>
+        <div class="timeline-badge">
+            <a><i class="fa fa-circle" id=""></i></a>
+        </div>
+        <div class="timeline-panel">
+            <div class="timeline-heading">
+                <h4>2010</h4>
+            </div>
+            <div class="timeline-body">
+                <p>Studying marketing</p>
+            </div>
+            <div class="timeline-footer">
+                <p class="text-right">INSEEC Paris</p>
+            </div>
+        </div>
+    </li>
+    
+    <li class="timeline-inverted">
+        <div class="timeline-badge">
+            <a><i class="fa fa-circle invert" id=""></i></a>
+        </div>
+        <div class="timeline-panel">
+            <div class="timeline-heading">
+                <h4>2005-2015</h4>
+            </div>
+            <div class="timeline-body">
+                <p>Working as a tennis coach</p>
+            </div>
+            <div class="timeline-footer">
+                <p class="text-right">Helsinki, Finland</p>
+            </div>
+        </div>
+    </li>
+    
+    <li>
+        <div class="timeline-badge">
+            <a><i class="fa fa-circle" id=""></i></a>
+        </div>
+        <div class="timeline-panel">
+            <div class="timeline-heading">
+                <h4>2010</h4>
+            </div>
+            <div class="timeline-body">
+                <p>Working as a Footbalance Specialist</p>
+            </div>
+            <div class="timeline-footer">
+                <p class="text-right">Footbalance System Oy</p>
+            </div>
+        </div>
+    </li>
+    
+    <li  class="timeline-inverted">
+        <div class="timeline-badge">
+            <a><i class="fa fa-circle invert" id=""></i></a>
+        </div>
+        <div class="timeline-panel">
+            <div class="timeline-heading">
+                <h4>2006</h4>
+            </div>
+            <div class="timeline-body">
+                <p>Graduated from high school</p>
+            </div>
+            <div class="timeline-footer primary">
+                <p class="text-right">Etu-Töölö High School, Helsinki, Finland</p>
+            </div>
+        </div>
+    </li>
+    <li class="clearfix no-float"></li>
+</ul>
+            
+        <!-- TIMELINE LOPPUU -->    
+            </div>
+        <div id="page4">
+            <br><br><br><br><br><br>
+            <!--KUVAKARUSELLI ALKAA -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" >
+    <div class="item active">
+      <img class="img-responsive" src="IMG_6269.jpg" alt="Chicago" width="460" height="345">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Having drink with these views</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img class="img-responsive" src="Chicago2.JPG" alt="Chicago" width="460" height="345">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you Chicago, You were amazing!</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img class="img-responsive" src="Japan.JPG" alt="Japan" width="460" height="345">
+      <div class="carousel-caption">
+        <h3>Hakuba</h3>
+        <p>Snowboarding in the JaPOW at Hakuba Valley</p>
+      </div>
+    </div>
+      
+      <div class="item">
+      <img class="img-responsive" src="IMG_6434.jpg" alt="Manu" width="460" height="345">
+      <div class="carousel-caption">
+        <h3>Manu</h3>
+        <p>Manu the King!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--KUVAKARUSELLI LOPPUU -->
+            </div>
+            
+            <div id="page5">
+                 
+                <div class="bg3">
+                    <br><br><br><br><br>
+                    </div>
+                <!-- WHY THERE IS AN EMPTY SPACE?!? -->
+                
+                <!-- below a list of my projects. Had to use some imagination..-->
+             <div class="container">
+                <div class="row"></div>
+                    <div class="col-xs-4">
+                        <img src="Kesa_project1.jpg" alt="Project1" style="width:100%"><br>My first HMTL-page. Testing some basic things, like styling and links.</div>
+                        
+                    <div class="col-xs-4">
+                        
+                        <img src="Kesa_project2.jpg" alt="Project2" style="width:100%">
+                        <br>My first JS-page with css-stylesheet. Testing all kind of stuff.</div>
+
+                    <div class="col-xs-4">
+                        <img src="Kesa_project3.jpg" alt="Project3" style="width:100%"><br>My first webpage. No more testing. Poor design, I know, but most of the functions actually works.</div>
+
+                </div>
+               
+            </div>
+        
+            <div id="page6">
+                
+                <!-- WHY THERE IS AN EMPTY SPACE?!? -->
+            
+                <!--My contact links in social media-->
+                
+                <div class="row"></div>
+                <div class="col-xs-6">
+                    <div class="col-xs-2">
+<a href="https://www.instagram.com/alttil/"><img src="ig_logo.png" alt="Instagram" style="width:50px;height:50px;border:0px;"></a></div>
+                <div class="col-xs-2">
+<a href="https://www.linkedin.com/in/altti-lindroos-4328002a/"><img src="LinkedIn_Logo.png" alt="LinkedIn" style="width:50px;height:50px;border:0px;"></a></div>
+                <div class="col-xs-2">
+<a href="mailto:altti.lindroos@myy.haaga-helia.fi"><img src="email_logo.png" alt="email" style="width:50px;height:50px;border:0px;"></a></div>
+
+                    </div>
+                
+<!--Contact info below-->
+
+<!--Tähän form-lomake submit-nappulalla -->
+                <div class="col-xs-6" style="background-color:pink;">
+                    <p ><strong>To contact me, fill in the info below. Thanks!</strong></p>
+<form id="myForm">
+	First name: <input type="text" name="fname" size="25">
+	<br>
+	Last name: <input type="text" name="lname" size="25">
+	<br>
+    
+	<label>Gender:</label>
+    <label class="container">Something else
+  <input type="radio" checked="checked" name="radio">
+  <span class="checkmark"></span>
+</label>
+    <label class="container">Male
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Female
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+	<br>
+	Age: <input type="text" id="age" size="4">
+	<br>
+	Email: <input type="email" name="email">
+	
+	<br>
+	<textarea id="myTextarea" rows="4" cols="50">
+	Comments</textarea>
+	<br>
+	<input type="button" onclick="SendInfo()" value="Send info">
+	<input type="button" onclick="myReset()" value="Reset form">	
+                    </form></div></div>
+    
+        </div> <!-- "pages" -->
+        
+    </body>
+</html>

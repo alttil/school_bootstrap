@@ -1,0 +1,33 @@
+.nav {
+  width: 100%;
+ /* background-color: #555; */
+    background-color: white;
+  overflow: auto;
+    text-decoration-color: blue;   
+}
+.nav li {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%; /* Four links of equal widths */
+  text-align: center;
+}
+/*
+.nav a:hover {
+  background-color: #000;
+}
+
+.nav a.active {
+  background-color: #4CAF50;
+} */
+
+@media screen and (max-width: 500px) {
+  .nav li {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
